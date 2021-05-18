@@ -1,0 +1,54 @@
+
+body {
+  /* background-image: url("./components/sky.jpg"); */
+  height: 100%;
+  width: 100%;
+  
+}
+
+.borderTile{
+  fill: rgb(0,0,0);
+  stroke:rgb(0,0,0)
+}
+.noLifeTile{
+  fill: rgb(255,255,255);
+  /* stroke:rgb(0,0,0) */
+  position: absolute;
+  display: none;
+}
+
+.lifeTile{
+  fill: rgb(64, 235, 22);
+  /* stroke:rgb(0,0,0) */
+  position: absolute;
+  display: none;
+}
+
+
+.tileBoard{
+  border: black;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.buttons{
+  position: relative;
+  color: white; 
+
+}
+
+#startButton{
+  background-color: rgb(64, 235, 22);
+}
+
+#stopButton{
+  background-color: rgb(235, 22, 22);
+}
+
+#resetButton{
+  background-color: rgb(235, 214, 22);
+}
+
+.app{
+  position: absolute;
+}
