@@ -49,7 +49,6 @@ const reducer = (state, action) => {
 
 
 function App() {
-  console.log("rendered!")
   const [board, dispatch] = useReducer(reducer, initialBoard);
   const [buttonType, setButtonType] = useState("start")
   const intervalRef = useRef();
